@@ -24,7 +24,10 @@ namespace temperature_converter_problem_
         {
             double C = 30;
             double F = CtoF(C);
-            Console.WriteLine
+            Console.WriteLine(C + " degrees C is " + F + " degrees F ");
+            Console.WriteLine(F + " degrees F is " + C + " degrees C ");
+
+
         }
     }
     
